@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#page-heading{
+    text-align: center;
+    margin-top: 25px;
+    color: rgb(116, 116, 116);
+    font-size: 3rem;
+}
+#home-screen{
+    margin-top: 50px;
+    position: relative;
+    left: 27%;
+    width: 45%;
+}
+ ul li{
+    height:50px ;
+    background-color: rgb(84, 106, 171);
+    margin: 20px;
+    font-size: 1.5rem;
+    color: white;
+    border: 2px solid none;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+ }
+li:hover{
+    background-color: rgb(170, 167, 167);
+    color: black;
+    height: 60px;
+    
+}
+ li p{
+    display: inline;
+    margin-top: 10px;
+}
+#AddForm{
+    margin-top: 50px;
+    position: relative;
+    left: 30%;
+   
+}
+#AddForm input{
+    height: 30px;
+    width: 200px;
+    margin-left: 20px;
+    background-color: rgb(221, 217, 217);
+    border: 2px solid white;
+    padding: 2px;
+}
+#AddForm button{
+    height: 35px;
+    width: 100px;
+    margin-left: 10px;
+    border: 2px solid white;
+    background-color:  rgb(170, 167, 167);
+}
+#delete-btn{
+    color: red;
+}
